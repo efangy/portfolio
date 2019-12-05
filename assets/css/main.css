@@ -2095,6 +2095,14 @@ section {
 		position: relative;
 	}
 
+.image2 {
+		border-radius: 0.35em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
@@ -2160,6 +2168,12 @@ section {
 			top: 0.25em;
 		}
 
+.image2.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
@@ -2169,8 +2183,16 @@ section {
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+.image2.left, .image.right {
+			max-width: 40%;
+		}
 
 			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+
+.image2.left img, .image.right img {
 				width: 100%;
 			}
 
