@@ -2219,6 +2219,9 @@ section {
 				width: 100%;
 			}
 
+.image3 {
+    width: 30%;
+}
 /* List */
 
 	ol {
@@ -2234,11 +2237,12 @@ section {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 5em;
+        
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: .2em;
 		}
 
 		ul.alt {
